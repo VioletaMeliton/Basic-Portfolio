@@ -1,0 +1,265 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    /*text-align: center;*/
+}
+
+
+body {
+    font-size: 24px;
+    width: 960px;
+
+}
+
+header {
+    clear: both;
+    padding: 34px;
+
+    height: 20px;
+    color: #333;
+    background: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 2px solid #cccccc;
+
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    color: #666;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 608px;
+    height: 35px;
+    color: #666;
+}
+
+p {
+    color: #666;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {padding: 10px 24px;}
+
+#heading {
+    text-align: left;
+    padding: 20px;
+    background-color: #4aaaa5;
+    float: left;
+    color:white;
+    position: fixed;
+    top: 0;
+    font-size: 30px;
+}
+
+#headingTwo{
+    float: right;
+    text-align: right;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+    left: 670px;
+    font-size: 18px;
+    margin-right: 40px;
+    color: #777777;
+
+}
+.boxhead a {
+    text-decoration: none;
+    color: #777777;
+    padding-right: 10px;
+
+}
+
+#left {
+    background-color: #666;
+    color: white;
+    width: 33%;
+    float: left;
+
+}
+
+#middle {
+    background-color: #888;
+    color: white;
+    width: 33%;
+    float: left;
+}
+
+#right {
+    background-color: #666;
+    color: white;
+    width: 33%;
+    float: left;
+}
+
+#full {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+    border-bottom: 5px solid #4aaaa5;
+    margin-bottom: 0px;
+    background-image: url("../images/seigaiha.png");
+}
+
+#division {
+    float: left;
+    background-color: white;
+    color: #4aaaa5;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    height: 120px;
+    width: 250px;
+}
+
+#miniHeader{
+    border-bottom: 1px solid #777777 ;
+    padding-bottom: 10px;
+}
+
+#miniHeader2 {
+    border-bottom: 1px solid #777777 ;
+    padding-top: 3px;
+    padding-bottom: 13px;
+    text-align: left;
+    color: #4aaaa5;
+}
+
+#github{
+    padding-top: 7px;
+    float: left;
+    width: 33%;
+}
+
+#linkedin{
+    padding-top: 5px;
+    float: left;
+    width: 33%;
+}
+
+#stackOverflow{
+    padding-top: 7px;
+    float: left;
+    width: 33%;
+}
+
+#photos {
+    float: left;
+    margin-top: 20px;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/hangman.jpg");
+}
+
+#caption{
+    margin-top: 140px;
+    background-color:#4aaaa5 ;
+    padding: 10px;
+    text-align: center;
+}
+
+#photos2 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/rpg.jpg");
+}
+
+#caption2{
+    margin-top: 140px;
+    background-color:#4aaaa5 ;
+    padding: 10px;
+    text-align: center;
+}
+#photos3 {
+    float: left;
+    margin-top: 20px;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/rps.jpg");
+}
+
+#caption3{
+    margin-top: 140px;
+    background-color:#4aaaa5 ;
+    padding: 10px;
+    text-align: center;
+}
+
+#photos4 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/rug.jpg");
+}
+
+#caption4 {
+    margin-top: 140px;
+    background-color:#4aaaa5 ;
+    padding: 10px;
+    text-align: center;
+}
+
+#photos5 {
+    float: left;
+    margin-top: 20px;
+    width: 290px;
+    height: 200px;
+    background-image: url("../images/trivia.jpg");
+}
+
+#caption5 {
+    margin-top: 140px;
+    background-color:#4aaaa5 ;
+    padding: 10px;
+    text-align: center;
+}
+#application{
+    margin-top: 20px;
+    text-align: left;
+    float: left;
+    color: #888
+}
+
+
+aside {
+    background-color: #fff;
+    width:640px;
+    height: 740px;
+    border: 1px solid #fff;
+    padding: 15px;
+    float: left;
+    margin-left: 17px;
+    margin-right: 3px;
+}
+
+footer {
+    clear: both;
+    background-color: #666666;
+    padding: 20px;
+    color:#888;
+    font-size: x-small;
+}
