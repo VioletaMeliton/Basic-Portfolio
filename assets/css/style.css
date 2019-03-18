@@ -32,9 +32,6 @@ section {
     
 }
 
-form {
-    color: #666;
-}
 
 
 p {
@@ -43,18 +40,6 @@ p {
 
 }
 
-.button {
-    background-color: #4aaaa5;
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-.button1 {padding: 10px 24px;}
 
 #heading {
     text-align: left;
@@ -116,16 +101,7 @@ p {
     background-image: url("../images/seigaiha.png");
 }
 
-/*#division {
-    float: left;
-    background-color: white;
-    color: #4aaaa5;
-    padding: 20px;
-    margin-left: 10px;
-    text-align: center;
-    height: 120px;
-    width: 250px;
-}*/
+
 
 #miniHeader{
     border-bottom: 1px solid #777777 ;
@@ -164,7 +140,7 @@ p {
     margin-left: 28px;
     width: 290px;
     height: 200px;
-    background-image: url("../images/rpg.jpg");
+    background-image: url("../images/image2.png");
 }
 
 #caption2{
@@ -178,7 +154,7 @@ p {
     margin-top: 20px;
     width: 290px;
     height: 200px;
-    background-image: url("../images/rps.jpg");
+    background-image: url("../images/image3.png");
 }
 
 #caption3{
@@ -194,25 +170,10 @@ p {
     margin-left: 28px;
     width: 290px;
     height: 200px;
-    background-image: url("../images/rug.jpg");
+    background-image: url("../images/image4.jpg");
 }
 
 #caption4 {
-    margin-top: 140px;
-    background-color:#4aaaa5 ;
-    padding: 10px;
-    text-align: center;
-}
-
-#photos5 {
-    float: left;
-    margin-top: 20px;
-    width: 290px;
-    height: 200px;
-    background-image: url("../images/trivia.jpg");
-}
-
-#caption5 {
     margin-top: 140px;
     background-color:#4aaaa5 ;
     padding: 10px;
